@@ -3,42 +3,108 @@ using UnityEngine.UI;
 
 public class PanelManager : MonoBehaviour
 {
-    [SerializeField] private GameObject panel1;
-    [SerializeField] private GameObject panel2;
-    [SerializeField] private GameObject panel3;
-    [SerializeField] private GameObject panel4;
-    [SerializeField] private GameObject panelAct;
-    [SerializeField] private GameObject panelRegMom;
-    [SerializeField] private GameObject panelClaRec;
+    [SerializeField] private GameObject one;
+    [SerializeField] private GameObject two;
+    [SerializeField] private GameObject three;
+    [SerializeField] private GameObject four;
+    [SerializeField] private GameObject five;
+    [SerializeField] private GameObject six;
+    [SerializeField] private GameObject seven;
+    [SerializeField] private GameObject eight;
+    [SerializeField] private GameObject nine;
+    [SerializeField] private GameObject ten;
+    [SerializeField] private GameObject eleven;
+    [SerializeField] private GameObject twelve;
+    [SerializeField] private GameObject thirteen;
+    [SerializeField] private GameObject fourteen;
 
-    public void OnEstructuraPressed()
+    public void OnOneToTwo()
     {
-        panel1.SetActive(false);
-        panel2.SetActive(true);
+        one.SetActive(false);
+        two.SetActive(true);
     }
-    public void OnModoDeUsoPressed()
+    public void OnOneToFive()
     {
-        panel1.SetActive(false);
-        panelAct.SetActive(true);
+        one.SetActive(false);
+        five.SetActive(true);
     }
-    public void OnChipPressed()
+    public void OnTwoToThree()
     {
-        panel2.SetActive(false);
-        panel3.SetActive(true);
+        two.SetActive(false);
+        three.SetActive(true);
     }
-    public void OnRegHormonasPressed()
+    public void OnThreeToFour()
     {
-        panel3.SetActive(false);
-        panel4.SetActive(true);
+        three.SetActive(false);
+        four.SetActive(true);
     }
-    public void OnRegMomentoPressed()
+    public void OnFiveToSix()
     {
-        panelAct.SetActive(false);
-        panelRegMom.SetActive(true);
+        five.SetActive(false);
+        six.SetActive(true);
     }
-    public void OnClaRecuerdosPressed()
+    public void OnSixToSeven()
     {
-        panelRegMom.SetActive(false);
-        panelClaRec.SetActive(true);
+        six.SetActive(false);
+        seven.SetActive(true);
+    }
+
+    public void OnSevenToEight()
+    {
+        seven.SetActive(false);
+        eight.SetActive(true);
+    }
+
+    public void OnEightToNine()
+    {
+        eight.SetActive(false);
+        nine.SetActive(true);
+    }
+
+    public void OnTwoToOne()
+    {
+        two.SetActive(false);
+        one.SetActive(true);
+    }
+
+    public void OnTwoToTwelve()
+    {
+        two.SetActive(false);
+        twelve.SetActive(true);
+    }
+
+    public void OnTwelveToTen()
+    {
+        twelve.SetActive(false);
+        ten.SetActive(true);
+    }
+    public void OnTwelveToFour()
+    {
+        twelve.SetActive(false);
+        four.SetActive(true);
+    }
+
+    public void OnThreeToTen()
+    {
+        three.SetActive(false);
+        ten.SetActive(true);
+    }
+
+    public void OnThreeToEleven()
+    {
+        three.SetActive(false);
+        eleven.SetActive(true);
+    }
+
+    public void OnThreeToThirteen()
+    {
+        three.SetActive(false);
+        thirteen.SetActive(true);
+    }
+
+    public void OnTwelveToFourteen()
+    {
+        twelve.SetActive(false);
+        fourteen.SetActive(true);
     }
 }
